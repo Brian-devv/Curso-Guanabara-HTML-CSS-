@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(58, 208, 126, 0.705);
+    font-weight: bold;
+    margin: 0px;
+}
+/* configuração header */
+.cabecalho{
+    background-image: linear-gradient(to bottom, #87DCAD, #295D40);
+    color: white;
+    padding: 10px;
+    margin: -8px;
+    text-align: center;
+    
+}
+
+
+.menu-principal{
+    list-style: none; /* tira as bolinha do laddo*/
+    display: flex; /* coloca um do lado do outro*/
+    gap: 20px; /* dá espaços entre as palavras do menu*/
+    padding: 0px;/* coloca bem no canto*/
+      
+}
+
+
+.menu-principal a{
+    text-decoration: none; /* Tira o sublinhado dos links */
+    color: rgb(154, 212, 180);
+    padding: 10px;
+    
+}
+
+.menu-principal a:hover{
+    background-color: #87DCAD;
+    border-radius: 4px;
+    text-decoration: underline;
+    color: white;
+}
+
+/*Configuração main */
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 8px;
+    
+}
+
+#assunto{
+    font-family: 'idroid', sans-serif;
+    color: rgb(17, 66, 39);
+}
+
+#noticias{
+    text-indent: 30px;
+    text-align: justify;
+}
+#noticias aside{
+    background-color: rgba(58, 208, 126, 0.705);
+}
+
+#noticias article > aside{
+    font-family: 'idroid', sans-serif;
+    color:rgba(32, 112, 68, 0.89);
+    background: linear-gradient(to right, rgba(69, 204, 130, 0.473), transparent);
+    text-indent: 5px;
+
+}
+
+.marcatxt{
+    background-color:rgba(58, 208, 126, 0.705);
+    color: rgb(17, 66, 39);
+    padding: 2px 6px;
+    
+}
+
+.link-destaque{
+    text-decoration: none;
+}
+
+.marcatxt:hover{
+    text-decoration: underline;
+}
+
+.container-extra{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.2); /* Adiciona aquela sombra da foto */
+}
+.titulo-verde{
+    background-color: #1a5c37;
+    color: white;
+    padding: 5px 10px;
+}
+
+.conteudo-final{
+    background-color: #83e1ad;
+    padding: 15px;
+}
+.titulo-verde h3 {
+    margin: 0; 
+}
