@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Fundo</title>
+    <style>
+
+        body{
+            background-image: linear-gradient(to bottom,#00DBD0,#22A8A2);
+        }
+
+        div.quadrada{
+            display: inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1{
+            background-color: aquamarine;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, green, orange);
+        }
+
+        div#q3{
+         background-image: url('imagens/pattern001.png');   
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="quadrada" id="q1">
+        <p>quadado 1</p>
+    </div>
+
+    <div class="quadrada" id="q2">
+        <p>quadado 2</p>
+    </div>
+
+    <div class="quadrada" id="q3">
+        <p>quadrada 3</p>
+    </div>
 </body>
 </html>
